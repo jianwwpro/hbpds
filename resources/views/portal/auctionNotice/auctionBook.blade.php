@@ -24,7 +24,12 @@
 				<div class="col-xs-10 content">
 					<h1>拍卖委托书</h1>
 					<p style="text-align: right;"><a href="/download-book">下載委託書</a></p>
-					<img src="/imgs/book.jpg" alt="" style="width:100%;">
+					
+					@if(\App::getLocale() === 'zh-TW')
+						<img src="/imgs/book.jpg" alt="" style="width:100%;">
+					@else
+						<img src="/imgs/book-en.jpg" alt="" style="width:100%;">
+					@endif
 				</div>
 			</div>
 		</div>

@@ -106,7 +106,12 @@ class PagesController extends Controller {
 
 	public function getDownloadBook($value='')
 	{
-		return response()->download(public_path('download/book.jpg'), '拍賣委託書.jpg');
+		$lang = 0;
+		if($locale == 'zh-TW'){
+			return response()->download(public_path('download/book.jpg'), '中文委托竞投.jpg');
+		}else {
+			return response()->download(public_path('download/book-en.jpg'), 'Absentee and Phone Bid Form.jpg');
+		}
 	}
 
 	public function getUpload($value='')
