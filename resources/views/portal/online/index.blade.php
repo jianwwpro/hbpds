@@ -11,7 +11,7 @@
 			</div>
 		</div>
 		<div class="container content">
-			<p>下列拍賣會均可以參與網上拍賣，點擊下面 <a href="" class="hb-btn">參加網上拍賣</a> 既可参与竞投</p>
+			<p>下列拍賣會均可以參與網上拍賣，點擊下面 <a href="" class="hb-btn">參加網上拍賣</a> 即可參與競投</p>
 
 			<ul class="prodcut-list">
 				@foreach($asas as $asa)
