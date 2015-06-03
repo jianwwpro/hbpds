@@ -84,7 +84,8 @@
 											<img src="{{$asa['asa_online_logo']}}" alt="" style="width:100px;height:35px;">	
 										</a>
 									@endif
-									@if($asa['asa_only_online'] === 1 )
+									{{dd($asa['asa_only_online'] )}}
+									@if($asa['asa_only_online'] == 1 )
 										僅網上拍賣
 									@endif
 								</div>
