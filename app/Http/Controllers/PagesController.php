@@ -69,7 +69,7 @@ class PagesController extends Controller {
 
 	public function getOnline()
 	{
-		$asas = HbAsa::where('asa_only_online','=','1')->paginate(5);
+		$asas = HbAsa::where('asa_online_url','!=',null)->paginate(5);
 		return view('portal.online.index')->withAsas($asas)->withSubnav('online');
 	}
 
