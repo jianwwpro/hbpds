@@ -22,7 +22,6 @@
 				</div>
 				<div class="col-xs-10 content">
 					
-					@if(\App::getLocale() === 'zh-TW')
 
 						<h1>橫濱國際拍賣（香港）有限公司</h1>
 						
@@ -42,11 +41,6 @@
 						<p style="display: inline-block;  margin-top: 18px;position: absolute;">在近年來中國古董與珠寶市場向海外轉移的趨勢下，得以讓流失在日本的中國古典藝術瑰寶迴歸祖國，公司憑藉香港的天時、地利、人和之有力條件，激發市場活力，開拓拍賣版圖，也成為橫濱國際拍賣公司在香港創建分公司的主要目的。</p>
 						<br><br><br><br><br><br>
 					
-					@else
-
-						123
-						
-					@endif
 					<!-- 
 					<div class="baidu-map" style="height: 500px;display: -webkit-box;">
 							                <div id="l-map"></div>
