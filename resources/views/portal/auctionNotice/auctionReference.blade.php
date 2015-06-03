@@ -22,7 +22,11 @@
 					</ul>
 				</div>
 				<div class="col-xs-10 content">
-					<h1>參考資料</h1>
+					@if(\App::getLocale() === 'zh-TW')
+						<h1>參考資料</h1>
+					@else
+						<h1>References</h1>
+					@endif
 					<ul>
 						@foreach ($materials as $material)
 							<li>

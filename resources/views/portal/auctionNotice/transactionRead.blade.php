@@ -72,7 +72,7 @@
 							<p>銀行地址： 1 Queen's Road Central,Central,Hong Kong</p>
 						</div>
 					@else
-						<h1>Yokohama International Auction (Hong Kong) Co., Limited</h1>
+						<h1>Bidder's Note</h1>
 
 						<h2>About buying</h2>
 						<p>Yokohama International Auction (Hong Kong) is open to the public and conducted in accordance with the auction terms and conditions set out at the back of this catalogue. If you would like to participate in the auction as a buyer, please read the terms and conditions and the information below carefully first.</p>

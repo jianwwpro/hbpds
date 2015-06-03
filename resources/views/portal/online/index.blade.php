@@ -17,7 +17,7 @@
 				@foreach($asas as $asa)
 					<li class="clearfix">
 						<div class="col-xs-2 date">
-							<h2>{{ date('Y年', strtotime($asa['begin_time'])) }}</h2>
+							<h2>{{ date('Y', strtotime($asa['begin_time'])) }}</h2>
 							<p>{{ date('m月d日', strtotime($asa['begin_time'])) }} 開始</p>
 						</div>
 						<div class="col-xs-4 img">
