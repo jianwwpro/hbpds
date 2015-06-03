@@ -23,7 +23,11 @@
 				</div>
 				<div class="col-xs-10 content">
 					<h1>拍卖委托书</h1>
-					<p style="text-align: right;"><a href="/download-book">下載委託書</a></p>
+					@if(\App::getLocale() === 'zh-TW')
+						<p style="text-align: right;"><a href="/download-book">下載委託書</a></p>
+					@else
+						<p style="text-align: right;"><a href="/download-book">Download Auction Book</a></p>
+					@endif
 					
 					@if(\App::getLocale() === 'zh-TW')
 						<img src="/imgs/book.jpg" alt="" style="width:100%;">
