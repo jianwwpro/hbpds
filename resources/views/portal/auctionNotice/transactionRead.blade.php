@@ -86,20 +86,31 @@
 						<h2>Participating in the auction</h2>
 						<p>There are three ways to participate in the Yokohama International Auction:</p>
 						<ul>
-							<li>1. In the saleroom</li>
-							<li>2. Absentee bidding</li>
-							<li>3. By telephone</li>
+							<li>
+								<h3>1. In the saleroom</h3>
+								<p>Once you have paid your deposit and registered at reception on the day of the sale, you will receive a numbered paddle to place your bid. Lots will be auctioned in the order they are presented in the catalogue. The auctioneer will call and accept the bids (in Hong Kong dollars) from the rostrum. If you would like to place a bid, you need to hold up your paddle so that he or she can see. The person to place the highest bid accepted by the auctioneer in each case is considered the buyer. More precisely, the buyer is the person whose paddle number is called when the auctioneer's hammer falls. A member of staff will then bring a bid confirmation form for the buyer to check and sign. Please remember that it is not possible to withdraw a bid once it has been accepted. <br><br>
+								To ensure the smooth running of the auction, Yokohama International Auction reserves the right to refuse entry at our discretion.</p>
+							</li>
+							<li>
+								<h3>2. Absentee bidding</h3>
+								<p>We strongly recommend that you attend the auction in person. However, those unable to do so may still participate in the bidding process by submitting the relevant absentee bidding documentation. Please complete the absentee bidding form, and send it by post or fax to the address below ten days before the day of the auction. Please also ensure that a security deposit of 100,000 Hong Kong dollars is transferred to our company bank account ten days before the day of the auction. <br><br>
+								<span style="color:red">Fax: 045-228-8638</span><br>
+								<span style="color:red">Bank details:</span><br>
+								<span style="color:red">HSBS regular deposit account: 165-756875-838</span><br>
+								<span style="color:red">Account name: YOKOHAMA INTERNATIONAL AUCTION (HONG KONG) CO., LIMITED</span><br>
+								</p>
+							</li>
+							<li>
+								<h3>3. By telephone</h3>
+								<p>If you are unable to attend the auction in person, you may also place bids by telephone. Please complete the registration procedures ten days before the day of the auction. Please also ensure that a security deposit of 100,000 Hong Kong dollars is transferred ten days before the day of the auction. There are restrictions in terms of staff availability and telephone lines. When choosing to participate in this way, please bear in mind the various problems that may occur due to the nature of telephone communication.</p>
+							</li>
 						</ul>
 
 						<h2>Payment and premiums</h2>
 						<p>In addition to the hammer price, you will also need to pay a 15% buyer’s premium.<br>
-
 							For example, with a sale price of 100,000 Hong Kong dollars:<br>
-
 							Sale price (hammer price)       = 100,000 HKD   <br>   
-
 							Buyer’s premium (15%) =       15,000 HKD<br>
-
 							Amount to pay (total purchase price) = 115,000 HKD</p>
 
 						<h2>Payment methods</h2>
@@ -131,13 +142,34 @@
 
 						<h2>Glossary of terms</h2>
 						<ul>
-							<li>Auctioneer</li>
-							<li>Lot number</li>
-							<li>Hammer price</li>
-							<li>Estimate</li>
-							<li>Paddle</li>
-							<li>Bidding</li>
-							<li>Buyer</li>
+							<li>
+								<h3>Auctioneer</h3>
+								<p>The person who conducts the auction.</p>
+							</li>
+							<li>
+								<h3>Lot number</h3>
+								<p>The number assigned to the item in accordance with the order it appears in the catalogue. Each item is usually allocated one lot number. However, a single lot number may be allocated to multiple items that are to be sold as a set, and the auction will proceed based on this lot number.</p>
+							</li>
+							<li>
+								<h3>Hammer price</h3>
+								<p>The highest bid accepted by the auctioneer for a given lot.</p>
+							</li>
+							<li>
+								<h3>Estimate</h3>
+								<p>The predicted selling price. It serves to guide the bidding and can be found in our catalogue.</p>
+							</li>
+							<li>
+								<h3>Paddle</h3>
+								<p>The numbered card given to those who have completed the prescribed registration procedures. Participants use this to take part in the auction.</p>
+							</li>
+							<li>
+								<h3>Bidding</h3>
+								<p>When a participant indicates an intention to purchase a particular lot by raising the numbered paddle. This includes absentee bidding and bidding by telephone.</p>
+							</li>
+							<li>
+								<h3>Buyer</h3>
+								<p>The auction participant who places the highest bid and is accepted by the auctioneer as the winning bidder.</p>
+							</li>
 						</ul>
 					@endif
 				</div>
