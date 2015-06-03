@@ -84,6 +84,9 @@
 											<img src="{{$asa['asa_online_logo']}}" alt="" style="width:100px;height:35px;">	
 										</a>
 									@endif
+									@if($asa['asa_only_online'] === 1 )
+										僅網上拍賣
+									@endif
 								</div>
 								<br>
 								<p>{{ date('Y-m-d H:i', strtotime($asa['begin_time'])) }}&nbsp;&nbsp;開拍</p>
