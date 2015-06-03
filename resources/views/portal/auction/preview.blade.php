@@ -85,7 +85,7 @@
 										</a>
 									@endif
 									@if($asa['asa_only_online'] == 1 )
-										僅網上拍賣
+										<a href="{{ $asa['asa_online_url'] }}" style="color:#ffcc00">僅網上拍賣</a>
 									@endif
 								</div>
 								<br>
