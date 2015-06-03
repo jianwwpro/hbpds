@@ -106,7 +106,7 @@ class PagesController extends Controller {
 
 	public function getDownloadBook($value='')
 	{
-		$lang = 0;
+		$locale = \App::getLocale();
 		if($locale == 'zh-TW'){
 			return response()->download(public_path('download/book.jpg'), '中文委托竞投.jpg');
 		}else {
