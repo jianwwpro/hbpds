@@ -32,4 +32,16 @@
 			</div>
 		</div>
 	</div>
+
+	<style type="text/css">
+		p {
+	  		line-height: 2em;
+	  	}
+	  	.left-menu{
+	  		width: 165px!important;
+	  	}
+	  	.content{
+	  		width: 975px!important;
+	  	}
+	</style>
 @endsection
