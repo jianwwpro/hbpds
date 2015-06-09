@@ -40,7 +40,7 @@
 									</article>
 									<div class="pic-list">
 										@foreach ($material->imgList as $img)
-											<div class="col-md-3">
+											<div class="col-xs-3">
 												{!!$img !!}
 											</div>
 										@endforeach
