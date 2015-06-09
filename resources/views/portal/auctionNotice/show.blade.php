@@ -13,7 +13,7 @@
 		</div>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-2">
+				<div class="col-xs-2">
 					<ul class="left-menu">
 						<li><a href="/auction-guide">拍賣規則</a></li>
 						<li><a href="/transaction-read">成交必讀</a></li>
@@ -21,7 +21,7 @@
 						<li><a href="/auction-book">拍卖委托书</a></li>
 					</ul>
 				</div>
-				<div class="col-md-10 content">
+				<div class="col-xs-10 content">
 					<h2>{{ $material->title }}</h2>
 					<div class="data">{{ date('Y-m-d', strtotime($material->published_at)) }}</div>
 					<br>
