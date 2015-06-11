@@ -23,8 +23,8 @@
 
     <link href="/plugins/iCheck/all.css" rel="stylesheet" type="text/css" />
 
-    <link rel="stylesheet" type="text/css" href="/plugins/simditor-2.1.5/styles/simditor.css" />
-	<link rel="stylesheet" type="text/css" href="/plugins/simditor-2.1.5/styles/simditor-html.css" />
+    <link rel="stylesheet" type="text/css" href="/plugins/simditor-2.1.13/styles/simditor.css" />
+	<link rel="stylesheet" type="text/css" href="/plugins/simditor-2.1.13/styles/simditor-html.css" />
 	
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
