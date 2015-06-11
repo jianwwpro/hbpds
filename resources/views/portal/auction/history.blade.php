@@ -20,8 +20,8 @@
 						<ul>
 							<li>
 								<h4>{{ $auction['auction_name'] }}</h4>
-								<h6 style="color:#999;">拍賣會場：{{ $auction['auction_addr'] }}</h6>
-								<h6 style="color:#999;">預展會場：{{ $auction['auction_preview_addr'] }}</h6>
+								<!-- <h6 style="color:#999;">拍賣會場：{{ $auction['auction_addr'] }}</h6>
+								<h6 style="color:#999;">預展會場：{{ $auction['auction_preview_addr'] }}</h6> -->
 								<hr>
 								@foreach( $auction->auctionGroup() as $group)
 									<div>
