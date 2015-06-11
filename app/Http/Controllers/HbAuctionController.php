@@ -52,13 +52,16 @@ class HbAuctionController extends Controller {
 			$lang = 1;
 		}*/
 		$historyAuction = HbAuction::where('preview_end_time','<',Carbon::now())
-								->select('preview_begin_time', DB::raw('YEAR(preview_begin_time) year'))
+								->select('preview_begin_time', DB::raw('YEAR(preview_begin_time) year'),'id','auction_name','preview_begin_time','preview_end_time','auction_begin_time','auction_end_time','lang')
 								->orderBy('preview_begin_time','desc')
 								->groupBy('year')
 					    		->get();
-		//$auctions = HbAuction::whereBetween('preview_begin_time', [Carbon::now()->year, Carbon::now()])->orderBy('preview_begin_time')->get();
-		$asas = HbAsa::where('preview_begin_time', '<', [Carbon::now()->year])->orderBy('preview_begin_time','desc')->paginate(5);
+		// //$auctions = HbAuction::whereBetween('preview_begin_time', [Carbon::now()->year, Carbon::now()])->orderBy('preview_begin_time')->get();
+		$asas = HbAsa::where('preview_begin_time', '<', [Carbon::now()])->orderBy('preview_begin_time','desc')->paginate(5);
 		return view('portal.auction.history')->withHistoryAuction($historyAuction)->withAsas($asas)->withSubnav('auction');
+		// $auctions = HbAuction::where('preview_end_time', '<' ,[Carbon::now()->year])->orderBy('preview_begin_time')->get();
+		// $asas = HbAsa::where('preview_end_time', '<' ,[Carbon::now()->year])->orderBy('preview_begin_time')->paginate(5);
+		// return view('portal.auction.preview')->withAuctions($auctions)->withAsas($asas)->withSubnav('auction');
 	}
 
 }
