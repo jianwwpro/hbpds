@@ -116,7 +116,7 @@
 		        editor = new Simditor({
 	                textarea: $('.simditor'),
 	                toolbar:[
-	                    'title','bold','italic','underline','strikethrough','ol','ul','blockquote','code','link','image','hr'
+	                    'title','bold' ,'italic' ,'underline' ,'strikethrough' ,'color' ,'ol' ,'ul' ,'blockquote' ,'code' ,'table' ,'link' ,'image' ,'hr' ,'indent' ,'outdent' ,'alignment' 
 	                ],
 	                defaultImage : '/assets/img/avatar/default.jpg',
 	                upload: {
