@@ -115,8 +115,8 @@
 	        if($('.simditor').length > 0){
 		        editor = new Simditor({
 	                textarea: $('.simditor'),
-	                toolbar = ['title', 'bold', 'italic', 'underline', 'strikethrough', 'color', '|', 'ol', 'ul', 'blockquote', 'code', 'table', '|', 'link', 'image', 'hr', '|', 'indent', 'outdent', 'alignment'];
-    				mobileToolbar = ["bold", "underline", "strikethrough", "color", "ul", "ol"];
+	                toolbar : ['title', 'bold', 'italic', 'underline', 'strikethrough', 'color', '|', 'ol', 'ul', 'blockquote', 'code', 'table', '|', 'link', 'image', 'hr', '|', 'indent', 'outdent', 'alignment'],
+    				mobileToolbar : ["bold", "underline", "strikethrough", "color", "ul", "ol"],
 	                defaultImage : '/assets/img/avatar/default.jpg',
 	                upload: {
 	                    url: '/admin/attachment?att_type=1&_token={{ Session::token() }}',
