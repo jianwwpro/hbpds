@@ -51,7 +51,7 @@ class HbAuctionController extends Controller {
 		}else {
 			$lang = 1;
 		}*/
-		$historyAuction = HbAuction::where('preview_begin_time','<',Carbon::now()->format('Y'))
+		$historyAuction = HbAuction::where('preview_end_time','<',Carbon::now())
 								->select('preview_begin_time', DB::raw('YEAR(preview_begin_time) year'))
 								->orderBy('preview_begin_time','desc')
 								->groupBy('year')
