@@ -14,7 +14,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-4 left-menu">
-					@if($auctions)
+					@if(sizeof($auctions) > 0)
 						<h1>2015 年</h1>
 						<ul>
 							@foreach( $auctions as $auction)
