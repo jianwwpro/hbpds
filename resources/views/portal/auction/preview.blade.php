@@ -14,43 +14,47 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-4 left-menu">
-					<h1>2015 年</h1>
-					<ul>
-						@foreach( $auctions as $auction)
-							<li>
-								<h4>{{ $auction['auction_name'] }}</h4>
-								<h6 style="color:#999;">拍賣會場：{{ $auction['auction_addr'] }}</h6>
-								<h6 style="color:#999;">預展會場：{{ $auction['auction_preview_addr'] }}</h6>
-								<hr>
-								@foreach( $auction->auctionGroup() as $group)
-									<div>
-										<h3>
-											{{ date('m月d日', strtotime($group['beginDate'])) }}-{{ date('m月d日', strtotime($group['endDate'])) }}
-										</h3>
-										<ul>
-											@foreach( $auction->asasByGroup($group['asa_group']) as $asa)
-												<li>
-													@if( date('Y-m-d H:i:s') > $asa['preview_begin_time'] && 
-														date('Y-m-d H:i:s') < $asa['preview_end_time'] )
-														<span style="float:left;background-image:url('/imgs/today_bg.png');height:35px;width:35px;">
-															<span style="line-height: 35px;color:white;font-size:14px;">今天&nbsp;</span>
-														</span>
-													@endif
-													&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-													<a href="/auction/preview/asa/{{ $asa['id'] }}" style="display: inline-block;">
-														{{ $asa['asa_name'] }}
-													</a>
-												</li>
-											@endforeach
-										</ul>
-									</div>
-								@endforeach
-							</li>
-						@endforeach
-					</ul>
-					<hr>
+					@if(sizeof($auctions) > 0)
+						<h1>2015 年</h1>
+						<ul>
+							@foreach( $auctions as $auction)
+								<li>
+									<h4>{{ $auction['auction_name'] }}</h4>
+									<h6 style="color:#999;">拍賣會場：{{ $auction['auction_addr'] }}</h6>
+									<h6 style="color:#999;">預展會場：{{ $auction['auction_preview_addr'] }}</h6>
+									<hr>
+									@foreach( $auction->auctionGroup() as $group)
+										<div>
+											<h3>
+												{{ date('m月d日', strtotime($group['beginDate'])) }}-{{ date('m月d日', strtotime($group['endDate'])) }}
+											</h3>
+											<ul>
+												@foreach( $auction->asasByGroup($group['asa_group']) as $asa)
+													<li>
+														@if( date('Y-m-d H:i:s') > $asa['preview_begin_time'] && 
+															date('Y-m-d H:i:s') < $asa['preview_end_time'] )
+															<span style="float:left;background-image:url('/imgs/today_bg.png');height:35px;width:35px;">
+																<span style="line-height: 35px;color:white;font-size:14px;">今天&nbsp;</span>
+															</span>
+														@endif
+														&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+														<a href="/auction/preview/asa/{{ $asa['id'] }}" style="display: inline-block;">
+															{{ $asa['asa_name'] }}
+														</a>
+													</li>
+												@endforeach
+											</ul>
+										</div>
+									@endforeach
+								</li>
+							@endforeach
+						</ul>
+						<hr>
 					<!-- <h1><a href="/auction/history">歷史拍賣</a></h1>
 					<hr> -->
+					@else
+						<h1>暫無預展信息</h1>
+					@endif
 				</div>
 				<div class="col-xs-8 content">
 					@foreach($asas as $asa)
