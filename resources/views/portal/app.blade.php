@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>横滨</title>
+		<title>橫濱國際拍賣（香港）</title>
 
 		<!-- Bootstrap CSS -->
 		<link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
