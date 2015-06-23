@@ -15,7 +15,7 @@
 					<a href="/map">{{ trans('portal.footer.map') }}</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 					<a href="/privacy">{{ trans('portal.footer.privacy') }}</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 					<div class="wx">
-						<img class=""src="/imgs/wx-code.png" style="width:50px;">
+						<img class=""src="/imgs/wx-code.png" style="width:100px;margin-top:-50px;">
 						<!--<div class="wx-code">
 							<img src="/imgs/wx-code.png" alt="">
 						</div>
