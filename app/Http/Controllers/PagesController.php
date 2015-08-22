@@ -22,7 +22,9 @@ class PagesController extends Controller {
 							->get();
 		return view('portal.index')->withSubnav('home')->withBanners($banners)->withAds($ads);
 	}
-
+public function getTest(){
+return view('portal.test');
+}
 	public function getIntroduction(){
 		return view('portal.about.introduction')->withSubnav('about');
 	}
