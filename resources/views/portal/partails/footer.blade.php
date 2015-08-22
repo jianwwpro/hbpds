@@ -26,10 +26,11 @@
 		</div>
 	</div>
 	<div class="copy">
-		<div class="container" style="font-size:12px;padding:0;">
+	<!--	<div class="container" style="font-size:12px;padding:0;">
 			<span>&copy; 2015 Yokohama International Auction (HK) Co. Ltd. All Rights Reserved</span>
 			<img src="/imgs/logo-jp.png" alt="">
 		</div>
+-->
 	</div>
 
 	<div class="goto-top">
