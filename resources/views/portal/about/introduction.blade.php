@@ -104,8 +104,8 @@
 					-->
 					
 					<div>
-						<a href="http://map.baidu.com/?newmap=1&ie=utf-8&s=s%26wd%3D%E9%A6%99%E6%B8%AF%E7%81%A3%E4%BB%94%E8%BB%92%E5%B0%BC%E8%A9%A9%E9%81%93302%20-%20308%20%E8%99%9F%E9%9B%86%E6%88%90%E4%B8%AD%E5%BF%83%202305" target="_blank">
-							<img src="/imgs/bd-map.jpg" alt="" style="width:100%;">
+						<a href="http://map.baidu.com/?newmap=1&ie=utf-8&s=s%26wd%3D%E9%A6%99%E6%B8%AF%E7%81%A3%E4%BB%94%E8%BB%92%E5%B0%BC%E8%A9%A9%E9%81%93302%20-%20308%20%E8%99%9F%E5%A4%A7%E6%9C%89%E5%A4%A7%E5%8E%A6%202305" target="_blank">
+							<img src="/imgs/xgdi.jpg" alt="" style="width:100%;">
 						</a>
 					</div>
                 </div>
